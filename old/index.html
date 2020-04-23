@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+      function ornek1(){
+        var sayi = parseInt(document.getElementById("let").value);
+        console.log(sayi)
+        for (let i = 0; i < sayi; i++) {
+          document.getElementById("content").innerHTML += "<div class='col'></div>"
+        }
+      }
+  </script>
+</head>
+<body>
+  <div class="top"></div>
+  <div class="left"></div>
+  <div id="content">
+      <div class="col">
+        <h3>Javascript 1</h3><br>
+          <input type="text" id="let">
+          <button onclick="ornek1()">Yazdir</button>
+          <p id="a"></p>
+      </div>
+  </div>
+  <div class="right"></div>
+  <div class="bottom"></div>
+</body>
+</html>
