@@ -2,28 +2,137 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anasayfa</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anasayfa</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="aa">asd</div>
+    <div class="aa">asd</div>
+    <div class="aa">asd</div>
+    <script>
+        var a = document.getElementsByClassName("aa");
+        a[1].innerHTML = "test";
+        console.log(a);
+    </script>
+    <header>
+        <div id="banner">
 
-  <header>
-    <div id="banner">
-
-      <div id="bannerinfo">
-        <h1>İlk ay ücretsiz ücretsiz fitness dersleri başlamıştır. <br>
-          Udemy Fitness Eğitim
-        </h1>
-        <p>Sport improves the mental health of a person thanks to the positive effect on the physical condition of the body.</p>
-         <div id="button"><a href="#">Read More</a>
-           <div class="iconbanner"></div>
+            <div id="bannerinfo">
+                <h1>İlk ay ücretsiz ücretsiz fitness dersleri başlamıştır. <br> Udemy Fitness Eğitim
+                </h1>
+                <p>Sport improves the mental health of a person thanks to the positive effect on the physical condition of the body.
+                </p>
+                <div id="button"><a href="#">Read More</a>
+                    <div class="iconbanner"></div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </header>
+
+        <div id="info">
+            <div id="box">
+                <div class="iconOne"></div>
+                <h1>Sağlığınız İçin</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quidem tempora. Modi similique numquam aut ad sint?
+                </p>
+            </div>
+
+            <div id="box">
+                <div class="iconTwo"></div>
+                <h1>Sağlığınız İçin</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quidem tempora. Modi similique numquam aut ad sint?
+                </p>
+            </div>
+
+            <div id="box">
+                <div class="iconThree"></div>
+                <h1>Sağlığınız İçin</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quidem tempora. Modi similique numquam aut ad sint?
+                </p>
+            </div>
+
+            <div id="box">
+                <div class="iconFour"></div>
+                <h1>Sağlığınız İçin</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quidem tempora. Modi similique numquam aut ad sint?
+                </p>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <div id="sablonlar">
+            <h1>Ücret Tabloları</h1>
+
+            <div id="column">
+                <img src="img/heart.png" class="heart" />
+                <p>100<sup>TL</sup> </p>
+                <h3>Aylık Ücret</h3>
+                <b>Eğitmen Yardımı Yoktur</b>
+                <b>Program Yapılır</b>
+                <b>Ölçüm Yapılır</b>
+                <div id="button"><a href="#">Read More</a>
+                    <div class="iconbanner"></div>
+                </div>
+
+            </div>
+            <div id="column">
+                <p>320<sup>TL</sup> </p>
+                <h3>3 Aylık Ücret</h3>
+                <b>Eğitmen Yardımı Vardır</b>
+                <b>Program Yapılır</b>
+                <b>Ölçüm Yapılır</b>
+                <div id="button"><a href="#">Read More</a>
+                    <div class="iconbanner"></div>
+                </div>
+            </div>
+            <div id="column">
+                <p>500<sup>TL</sup> </p>
+                <h3>Yıllık Ücret</h3>
+                <b>Eğitmen Yardımı Vardır</b>
+                <b>Program Yapılır</b>
+                <b>Ölçüm Yapılır</b>
+                <div id="button"><a href="#">Read More</a>
+                    <div class="iconbanner"></div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="tasiyan">
+            <div id="partOne">
+                <p> <b> Udemy Fitness Eğitim </b>
+                    <br>
+                    <br> Cep: 0555 555 5555
+                    <br> e mail
+                    <br> adres adreS
+                </p>
+
+                <img src="img/heart.png">
+                <img src="img/laugh.png">
+                <img src="img/right-arrowHover.png">
+            </div>
+
+            <div id="partTwo">
+                <p><b>İletişim</b></p>
+                <form>
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="E-mail">
+                    <textarea placeholder="Messages"></textarea>
+                </form>
+                <div id="button" style="margin: 0; margin-left: 105px; margin-top: 6px;"><a href="#">Read More</a>
+                    <div class="iconbanner"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
